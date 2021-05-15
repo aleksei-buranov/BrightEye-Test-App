@@ -1,0 +1,41 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Test_app_BrightEye"
+        xmlns:DataModel="clr-namespace:Test_app_BrightEye.DataModel" x:Class="Test_app_BrightEye.MainWindow"
+        mc:Ignorable="d"
+        Title="Brighteye - Test App" Height="498" Width="800" HorizontalAlignment="Center" VerticalAlignment="Center" ResizeMode="NoResize">
+    <Grid Margin="2,-2,-2,2">
+        <Button x:Name="FillButton" Content="Fill table data" HorizontalAlignment="Center" Margin="10,10,649,392" VerticalAlignment="Center" Width="135" RenderTransformOrigin="0.5,0.5" Height="67" Cursor="Hand" FontSize="16" Click="FillButton_Click"/>
+        <Button x:Name="SortButton" Content="Sort table data" HorizontalAlignment="Center" Margin="10,82,649,320" VerticalAlignment="Center" Width="135" RenderTransformOrigin="0.5,0.5" Height="67" Cursor="Hand" FontSize="16" Click="SortButton_Click" IsEnabled="False"/>
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="449" Margin="150,10,0,0" VerticalAlignment="Top" Width="634">
+            <Separator Margin="92,0" RenderTransformOrigin="0.5,0.5">
+                <Separator.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-90"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Separator.RenderTransform>
+            </Separator>
+        </Border>
+        <Grid HorizontalAlignment="Left" Height="449" Margin="150,10,0,0" VerticalAlignment="Top" Width="634">
+            <DataGrid x:Name="randNumbersGrid" HorizontalAlignment="Left" Height="413" VerticalAlignment="Top" Width="301" SelectedIndex="0" IsReadOnly="True" RenderTransformOrigin="0.5,0.5" Margin="10,26,0,0" FontSize="16">
+                <DataGrid.DataContext>
+                    <DataModel:NumberContext/>
+                </DataGrid.DataContext>
+            </DataGrid>
+            <DataGrid x:Name="sortNumbersGrid" HorizontalAlignment="Left" Height="413" VerticalAlignment="Top" Width="301" SelectedIndex="0" IsReadOnly="True" RenderTransformOrigin="0.5,0.5" Margin="323,26,0,0" FontSize="16">
+                <DataGrid.DataContext>
+                    <DataModel:NumberContext/>
+                </DataGrid.DataContext>
+            </DataGrid>
+            <TextBlock x:Name="randNumbersLabel" HorizontalAlignment="Left" Margin="0,7,0,0" TextWrapping="Wrap" Text="Raw data" VerticalAlignment="Top" Width="311" TextAlignment="Center" FontSize="14"/>
+            <TextBlock x:Name="randNumbersLabel_Copy" HorizontalAlignment="Left" Margin="323,7,0,0" TextWrapping="Wrap" Text="Sort data" VerticalAlignment="Top" Width="311" TextAlignment="Center" FontSize="14"/>
+        </Grid>
+
+    </Grid>
+</Window>

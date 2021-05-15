@@ -1,0 +1,23 @@
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye.csprojAssemblyReference.cache
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\MainWindow.g.cs
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\App.g.cs
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye_MarkupCompile.cache
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye_MarkupCompile.lref
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\bin\Debug\Test app BrightEye.exe.config
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\bin\Debug\Test app BrightEye.exe
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\bin\Debug\Test app BrightEye.pdb
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\bin\Debug\EntityFramework.dll
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\bin\Debug\EntityFramework.xml
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\MainWindow.baml
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye.g.resources
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test_app_BrightEye.Properties.Resources.resources
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye.csproj.GenerateResource.cache
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye.csproj.CoreCompileInputs.cache
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye.csproj.CopyComplete
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye.exe
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test app BrightEye.pdb
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test_app_BrightEye.Migrations.InitialCreate.resources
+E:\Projects\C#\Test app BrightEye\Test app BrightEye\obj\Debug\Test_app_BrightEye.Migrations.SortNumbers.resources
